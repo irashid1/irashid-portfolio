@@ -184,6 +184,8 @@ td, th {
   padding: 0;
 }
 
-h1 {
+html {
   font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
