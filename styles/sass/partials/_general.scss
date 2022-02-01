@@ -1,3 +1,7 @@
+$primary-color: #4d07eb;
+$secondary-color: #fb37bf;
+$tertiary-color: #00d8f3;
+
 .wrapper {
     margin: 0 auto;
     max-width: 1200px;
@@ -18,4 +22,7 @@ li {
 
 img {
     max-width: 500px;
+    width: 100%;
+    margin: 10px 0;
+
 }
