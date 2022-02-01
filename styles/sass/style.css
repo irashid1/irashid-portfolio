@@ -190,6 +190,12 @@ html {
   text-transform: uppercase;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 80%;
+}
+
 section {
   margin: 25px;
 }
@@ -204,4 +210,13 @@ li {
 
 img {
   max-width: 500px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.userInputs {
+  display: flex;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
