@@ -196,4 +196,8 @@ section {
 
 p {
   margin: 10px;
+}
+
+li {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
