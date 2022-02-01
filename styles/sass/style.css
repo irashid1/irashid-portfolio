@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -188,6 +188,7 @@ html {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 300;
 }
 
 .wrapper {
@@ -208,6 +209,17 @@ li {
   list-style: none;
 }
 
+button {
+  background-color: #fb37bf;
+  border-style: none;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  height: 35px;
+  border-radius: 25px;
+  color: white;
+}
+
 img {
   max-width: 500px;
   width: 100%;
@@ -224,16 +236,25 @@ textarea {
 }
 
 header {
-  background-color: #4d07eb;
   color: white;
 }
-header h1 {
-  font-size: 50px;
+header .headerContainer {
+  background-color: #4d07eb;
+  padding: 50px 0;
 }
-header h4 {
-  margin: 20px 0;
+header .headerContainer h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+header .headerContainer button {
+  background-color: #fb37bf;
+  border-style: none;
+  padding: 10px;
 }
 
+header nav {
+  background-color: white;
+}
 header nav ul {
   display: flex;
   justify-content: center;
@@ -242,9 +263,6 @@ header nav ul {
   margin: 0 auto;
   padding-left: 0px;
 }
-header nav ul li {
+header nav li {
   padding: 10px;
-}
-header nav ul a {
-  color: white;
 }/*# sourceMappingURL=style.css.map */
