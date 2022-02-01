@@ -188,4 +188,12 @@ html {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
+}
+
+section {
+  margin: 25px;
+}
+
+p {
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
