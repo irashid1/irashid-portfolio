@@ -188,7 +188,15 @@ html {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 100;
+}
+
+label {
+  text-transform: none;
+}
+
+p {
+  text-transform: none;
 }
 
 .wrapper {
@@ -199,6 +207,10 @@ html {
 
 section {
   margin: 25px;
+}
+
+h2 {
+  padding: 20px 0;
 }
 
 p {
@@ -230,9 +242,29 @@ textarea {
   width: 100%;
 }
 
+.contactUs {
+  background-color: #4d07eb;
+  color: white;
+  padding: 25px;
+}
+
 .userInputs {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userInput1,
+.userInput2 {
+  padding: 10px;
+}
+.userInput1 input,
+.userInput2 input {
+  width: 80%;
+}
+
+.textArea {
+  width: 100%;
 }
 
 header {
