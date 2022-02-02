@@ -14,8 +14,27 @@
 
     <!-- start of header -->
     <header>
-        <h1>Imtiaz Rashid</h1>
-        <h2>Front-End Developer</h2>
+
+        <div class="wrapper">
+            <nav class="index-header-nav">
+                <ul class="menu-item-container">
+                    <li class="menu-item-active"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="#projects">Projects</a></li>
+                    <li class="menu-item"><a href="#skills">Skills</a></li>
+                    <li class="menu-item"><a href="#about">About</a></li>
+                    <li class="menu-item"><a href="#contact">Contact</a></li>
+                    <!-- <li class="hamburger-menu"><i class="fa fa-bars"></i></li> -->
+                </ul>
+            </nav>
+
+            <div class="headerContainer">
+                <h1>Imtiaz Rashid</h1>
+                <p>Software Developer</p>
+                <button>Explore</button>
+            </div>
+
+        </div>
+
     </header>
     <!-- end of header -->
 
@@ -23,12 +42,12 @@
     <main>
 
         <!-- projects section -->
-        <section>
-            <h3>Projects</h3>
+        <section id="projects" class="projects wrapper">
+            <h2>Projects</h2>
 
-            
+
             <div class="wordContainer">
-                <h4>Trivia App</h4>
+                <h3>Trivia App</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nobis ullam commodi eius? Praesentium
                     fuga dicta iure, voluptatum doloribus cum.</p>
             </div>
@@ -37,23 +56,23 @@
             <img src="./assets/robotrivia2.png" alt="screenshot of our react app robotrivia">
 
             <div class="wordContainer">
-                <h4>Pokedex</h4>
+                <h3>Pokedex</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea fugit nesciunt reprehenderit nemo quo
                     eos tempora ab sit laboriosam magnam!</p>
             </div>
             <img src="./assets/pokemon.png" alt="screenshot of our react app for pokemon">
 
-            
+
             <div class="wordContainer">
-                <h4>Stoic Quotes</h4>
+                <h3>Stoic Quotes</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor fuga molestiae natus distinctio
                     inventore. Alias unde vero quae beatae commodi?</p>
             </div>
             <img src="./assets/stoicquotes.png" alt="screenshot of my individual app stoic quotes">
 
-            
+
             <div class="wordContainer">
-                <h4>Musings of Willow</h4>
+                <h3>Musings of Willow</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque omnis nisi exercitationem sed
                     illo eaque earum deleniti odit beatae.</p>
             </div>
@@ -62,9 +81,17 @@
         </section>
 
 
+        <!-- toolkit section -->
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo veniam ducimus aspernatur, hic possimus
+                ipsa nostrum modi eum magni incidunt.</p>
+        </section>
+
+
         <!-- about section -->
-        <section>
-            <h3>About</h3>
+        <section id="about" class="about-me">
+            <h2>About</h2>
             <!-- <img src="./assets/imtiaz1.jpg" alt="a photograph of Imtiaz Rashid"> -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil voluptate saepe. Quibusdam modi
                 ipsum atque, iusto animi quidem fugiat doloribus veniam recusandae reiciendis voluptatibus rem.
@@ -72,53 +99,47 @@
                 provident nihil atque quae ipsa quisquam non veniam incidunt nulla dolorum.</p>
         </section>
 
-
-        <!-- toolkit section -->
-        <section>
-            <h3>Toolkit</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo veniam ducimus aspernatur, hic possimus
-                ipsa nostrum modi eum magni incidunt.</p>
-        </section>
-
-
         <!-- contact section -->
-        <section class="wrapper">
-            <h3>Contact</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique illum molestiae saepe labore
-                repellendus reprehenderit!</p>
+        <section id="contact" class="wrapper contact">
 
-            
-                <div class="contactUs">
 
-                    <div class="messageBox">
-                        <form action="#">
-                            <div class="userInputs">
-                                <div class="userInput1">
-                                    <label for="name">Name</label>
-                                    <input type="text" id="name" name="name">
-                                </div>
-                                <div class="userInput2">
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email" name="email">
-                                </div>
+            <div class="contactUs">
+
+                <h2>Contact</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique illum molestiae saepe labore
+                    repellendus reprehenderit!</p>
+
+
+                <div class="messageBox">
+                    <form action="#">
+                        <div class="userInputs">
+                            <div class="userInput1">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name">
                             </div>
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message"></textarea>
-
-                            <div class="button">
-                                <button type="submit">Send Message</button>
+                            <div class="userInput2">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
 
-                <!-- <img src="./assets/toronto1.jpg" alt="a photograph of toronto"> -->
-                <img src="./assets/toronto2.jpg" alt="a photograph of toronto">
-                <!-- <img src="./assets/toronto3.jpg" alt="a photograph of toronto"> -->
-                <img src="./assets/toronto4.jpg" alt="a photograph of toronto">
-                <!-- <img src="./assets/toronto5.jpg" alt="a photograph of toronto"> -->
-                
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
                 </div>
-            
+
+                
+            </div>
+
+            <!-- <img src="./assets/toronto1.jpg" alt="a photograph of toronto"> -->
+            <img src="./assets/toronto2.jpg" alt="a photograph of toronto">
+            <!-- <img src="./assets/toronto3.jpg" alt="a photograph of toronto"> -->
+            <img src="./assets/toronto4.jpg" alt="a photograph of toronto">
+            <!-- <img src="./assets/toronto5.jpg" alt="a photograph of toronto"> -->
+
 
 
         </section>
@@ -132,7 +153,7 @@
         <nav>
             <ul>
                 <div class="followItemsList">
-                    <h4 href="#follow">Follow</h4>
+                    <h2 href="#follow">Follow</h2>
                     <div class="followList">
                         <li>
                             <div class="linkedin">

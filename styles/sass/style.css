@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -188,6 +188,15 @@ html {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 100;
+}
+
+label {
+  text-transform: none;
+}
+
+p {
+  text-transform: none;
 }
 
 .wrapper {
@@ -200,12 +209,27 @@ section {
   margin: 25px;
 }
 
+h2 {
+  padding: 20px 0;
+}
+
 p {
   margin: 10px;
 }
 
 li {
   list-style: none;
+}
+
+button {
+  background-color: #fb37bf;
+  border-style: none;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  height: 35px;
+  border-radius: 25px;
+  color: white;
 }
 
 img {
@@ -218,18 +242,59 @@ textarea {
   width: 100%;
 }
 
+.contactUs {
+  background-color: #4d07eb;
+  color: white;
+  padding: 25px;
+}
+
 .userInputs {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userInput1,
+.userInput2 {
+  padding: 10px;
+}
+.userInput1 input,
+.userInput2 input {
+  width: 80%;
+}
+
+.textArea {
+  width: 100%;
 }
 
 header {
-  background-color: #4d07eb;
   color: white;
 }
-header h1 {
-  font-size: 50px;
+header .headerContainer {
+  background-color: #4d07eb;
+  padding: 50px 0;
 }
-header h4 {
-  margin: 20px 0;
+header .headerContainer h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+header .headerContainer button {
+  background-color: #fb37bf;
+  border-style: none;
+  padding: 10px;
+}
+
+header nav {
+  background-color: white;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+header nav li {
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -2,7 +2,26 @@ textarea {
     width: 100%;
 }
 
+.contactUs {
+    background-color: $primary-color;
+    color: white;
+    padding: 25px;
+}
+
 .userInputs {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userInput1,
+.userInput2 {
+    padding: 10px;
+    input {
+        width: 80%;
+    }
+}
+
+.textArea {
+    width: 100%;
 }
