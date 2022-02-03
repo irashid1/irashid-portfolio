@@ -5,16 +5,16 @@ header {
     .headerContainer {
         background-color: $primary-color;
         padding: 50px 0;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         h1 {
         font-size: 50px;
         font-weight: 800;
-        }
-        button {
-            background-color: $secondary-color;
-            border-style: none;
-            padding: 10px;
-        }
         
+        }
     }
 }
 
