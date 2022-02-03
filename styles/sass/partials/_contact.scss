@@ -58,4 +58,19 @@ textarea {
     color: black;
 }
 
-
+.contact-container {
+    // display: flex;
+    // flex-direction: row-reverse;
+    // justify-content: space-between;
+    // align-items: center;
+    padding: 25px 0;
+    .follow-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ul {
+            padding: 0;
+        }
+    }
+}
