@@ -185,10 +185,34 @@ td, th {
 }
 
 html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
   font-weight: 100;
+  font-size: 125%;
+  line-height: 1.5;
 }
 
 label {
@@ -224,12 +248,13 @@ li {
 button {
   background-color: #fb37bf;
   border-style: none;
-  padding: 10px;
-  margin: 10px;
+  box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.5);
+  margin: 20px;
   width: 150px;
   height: 35px;
   border-radius: 25px;
   color: white;
+  font-size: 16px;
 }
 
 .image-container {
@@ -308,6 +333,16 @@ button {
   padding: 5px;
 }
 
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-me p {
+  width: 50%;
+  text-align: center;
+}
+
 textarea {
   width: 100%;
 }
@@ -343,7 +378,7 @@ form {
 
 .user-input-1 input,
 .user-input-2 input {
-  padding: 0px;
+  padding-left: 20px;
 }
 
 input {
@@ -361,11 +396,8 @@ label {
 
 textarea {
   padding: 20px 0;
+  padding-left: 20px;
   color: black;
-}
-
-.button-container {
-  padding: 20px 0;
 }
 
 header {
@@ -373,8 +405,8 @@ header {
 }
 header .header-container {
   background-color: #4d07eb;
-  padding: 50px 0;
-  height: 85vh;
+  margin: 50px 0;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

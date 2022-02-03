@@ -35,7 +35,7 @@ form {
 .user-input-1,
 .user-input-2 {
     input {
-        padding: 0px;
+        padding-left: 20px;
     }
 }
 
@@ -54,9 +54,8 @@ label {
 
 textarea {
     padding: 20px 0;
+    padding-left: 20px;
     color: black;
 }
 
-.button-container {
-    padding: 20px 0;
-}
+
