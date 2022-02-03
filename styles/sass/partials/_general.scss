@@ -35,6 +35,12 @@ button {
     color: white;
 }
 
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .banner-image {
     width: 100%;
 }
