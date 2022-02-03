@@ -230,7 +230,7 @@ p {
 }
 
 section {
-  margin: 25px;
+  padding: 25px;
 }
 
 h2 {
@@ -277,6 +277,11 @@ button {
   max-width: 500px;
   width: 100%;
   margin: 10px 0;
+}
+
+.skills {
+  background-color: #4d07eb;
+  color: white;
 }
 
 .skills-container .skills-list {
@@ -407,16 +412,17 @@ textarea {
 }
 
 .contact-container {
-  padding: 25px 0;
-}
-.contact-container .follow-list {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   align-items: center;
 }
+.contact-container .follow-list {
+  width: 50%;
+  text-align: center;
+}
 .contact-container .follow-list ul {
-  padding: 0;
+  padding-left: 0;
 }
 
 header {
