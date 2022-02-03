@@ -298,13 +298,6 @@ button {
   font-size: 1rem;
 }
 
-.follow-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .github,
 .linkedin,
 .instagram {
