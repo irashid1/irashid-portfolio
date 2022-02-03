@@ -44,7 +44,7 @@ button {
 .project-image {
     max-width: 750px;
     width: 100%;
-    margin: 10px 0;  
+    margin: 10px 0;
 }
 
 .banner-image {
@@ -58,7 +58,6 @@ button {
 }
 
 .skills-container {
-    
     .skills-list {
         display: flex;
         flex-wrap: wrap;
@@ -71,7 +70,6 @@ button {
             padding: 35px 125px;
             i {
                 font-size: 6rem;
-                
             }
             p {
                 padding-top: 20px;
@@ -94,5 +92,27 @@ button {
     i {
         font-size: 2rem;
     }
-    
+}
+
+// projects
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .project-icons-list {
+        display: flex;
+        i {
+            font-size: 2rem;
+            padding: 5px;
+        }
+    }
 }

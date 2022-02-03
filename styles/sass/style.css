@@ -288,6 +288,26 @@ button {
   font-size: 2rem;
 }
 
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-icons-container .project-icons-list {
+  display: flex;
+}
+.project-icons-container .project-icons-list i {
+  font-size: 2rem;
+  padding: 5px;
+}
+
 textarea {
   width: 100%;
 }
