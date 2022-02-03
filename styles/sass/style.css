@@ -273,18 +273,18 @@ button {
   font-size: 1rem;
 }
 
-.followList {
+.follow-list {
   display: flex;
   justify-content: center;
 }
-.followList .github,
-.followList .linkedin,
-.followList .instagram {
+.follow-list .github,
+.follow-list .linkedin,
+.follow-list .instagram {
   display: flex;
   flex-direction: column;
   padding: 25px;
 }
-.followList i {
+.follow-list i {
   font-size: 2rem;
 }
 
@@ -292,7 +292,7 @@ textarea {
   width: 100%;
 }
 
-.contactUs {
+.contact-us {
   background-color: #4d07eb;
   color: white;
   padding: 25px;
@@ -351,7 +351,7 @@ textarea {
 header {
   color: white;
 }
-header .headerContainer {
+header .header-container {
   background-color: #4d07eb;
   padding: 50px 0;
   height: 85vh;
@@ -360,7 +360,7 @@ header .headerContainer {
   justify-content: center;
   align-items: center;
 }
-header .headerContainer h1 {
+header .header-container h1 {
   font-size: 50px;
   font-weight: 800;
 }
