@@ -9,7 +9,7 @@ $tertiary-color: #00d8f3;
 }
 
 section {
-    margin: 25px;
+    padding: 25px;
 }
 
 h2 {
@@ -27,12 +27,13 @@ li {
 button {
     background-color: $secondary-color;
     border-style: none;
-    padding: 10px;
-    margin: 10px;
+    box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.5);
+    margin: 20px;
     width: 150px;
     height: 35px;
     border-radius: 25px;
     color: white;
+    font-size: 16px;
 }
 
 .image-container {
@@ -44,7 +45,7 @@ button {
 .project-image {
     max-width: 750px;
     width: 100%;
-    margin: 10px 0;  
+    margin: 10px 0;
 }
 
 .banner-image {
@@ -57,8 +58,12 @@ button {
     margin: 10px 0;
 }
 
+.skills {
+    background-color: $primary-color;
+    color: white;
+}
+
 .skills-container {
-    
     .skills-list {
         display: flex;
         flex-wrap: wrap;
@@ -71,7 +76,6 @@ button {
             padding: 35px 125px;
             i {
                 font-size: 6rem;
-                
             }
             p {
                 padding-top: 20px;
@@ -81,18 +85,58 @@ button {
     }
 }
 
-.follow-list {
+
+
+.github,
+.linkedin,
+.instagram {
     display: flex;
-    justify-content: center;
-    .github,
-    .linkedin,
-    .instagram {
-        display: flex;
-        flex-direction: column;
-        padding: 25px;
-    }
+    flex-direction: column;
+    padding: 25px;
     i {
         font-size: 2rem;
     }
-    
+}
+
+// projects
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container {
+    display: flex;
+    padding: 25px 0;
+    img {
+        box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.project-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .project-icons-list {
+        display: flex;
+        i {
+            font-size: 2rem;
+            padding: 5px;
+        }
+    }
+}
+
+// about me
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        width: 50%;
+        text-align: center;
+    }
 }
