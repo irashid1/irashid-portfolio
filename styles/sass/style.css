@@ -232,17 +232,48 @@ button {
   color: white;
 }
 
-img {
+.banner-image {
+  width: 100%;
+}
+
+.regular-image {
   max-width: 500px;
   width: 100%;
   margin: 10px 0;
 }
 
-.skills-container {
+.skills-container .skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0;
+  justify-content: space-around;
+  padding-left: 0;
+}
+.skills-container .skills-list .skills-item {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 125px;
+}
+.skills-container .skills-list .skills-item i {
+  font-size: 6rem;
+}
+.skills-container .skills-list .skills-item p {
+  padding-top: 20px;
+  font-size: 1rem;
+}
+
+.followList {
+  display: flex;
+  justify-content: center;
+}
+.followList .github,
+.followList .linkedin,
+.followList .instagram {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.followList i {
+  font-size: 2rem;
 }
 
 textarea {

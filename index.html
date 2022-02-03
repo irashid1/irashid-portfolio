@@ -7,7 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="./styles/sass/style.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <script src="https://kit.fontawesome.com/7dfc5536e9.js" crossorigin="anonymous"></script>
+   
 </head>
 
 <body>
@@ -52,16 +59,16 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nobis ullam commodi eius? Praesentium
                     fuga dicta iure, voluptatum doloribus cum.</p>
             </div>
-            <img src="./assets/robotrivia0.png" alt="screenshot of our react app robotrivia">
-            <img src="./assets/robotrivia1.png" alt="screenshot of our react app robotrivia">
-            <img src="./assets/robotrivia2.png" alt="screenshot of our react app robotrivia">
+            <img class="regular-image" src="./assets/robotrivia0.png" alt="screenshot of our react app robotrivia">
+            <img class="regular-image" src="./assets/robotrivia1.png" alt="screenshot of our react app robotrivia">
+            <img class="regular-image" src="./assets/robotrivia2.png" alt="screenshot of our react app robotrivia">
 
             <div class="wordContainer">
                 <h3>Pokedex</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea fugit nesciunt reprehenderit nemo quo
                     eos tempora ab sit laboriosam magnam!</p>
             </div>
-            <img src="./assets/pokemon.png" alt="screenshot of our react app for pokemon">
+            <img class="regular-image" src="./assets/pokemon.png" alt="screenshot of our react app for pokemon">
 
 
             <div class="wordContainer">
@@ -69,7 +76,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor fuga molestiae natus distinctio
                     inventore. Alias unde vero quae beatae commodi?</p>
             </div>
-            <img src="./assets/stoicquotes.png" alt="screenshot of my individual app stoic quotes">
+            <img class="regular-image" src="./assets/stoicquotes.png" alt="screenshot of my individual app stoic quotes">
 
 
             <div class="wordContainer">
@@ -77,32 +84,36 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque omnis nisi exercitationem sed
                     illo eaque earum deleniti odit beatae.</p>
             </div>
-            <img src="./assets/willow.png" alt="screenshot of my portfolio project, musings of willow">
+            <img class="regular-image" src="./assets/willow.png" alt="screenshot of my portfolio project, musings of willow">
 
         </section>
 
 
         <!-- toolkit section -->
         <section id="skills" class="skills">
-            <div class="wrapper">
-                <h2>Skills</h2>
-                <ul class="skills-container">
-                    <li class="skills-item">React</li>
-                    <li class="skills-item">JavaScript</li>
-                    <li class="skills-item">HTML5</li>
-                    <li class="skills-item">CSS3</li>
-                    <li class="skills-item">SASS</li>
-                    <li class="skills-item">Git</li>
-                    <li class="skills-item">Firebase</li>
-                    <li class="skills-item">REST APIs</li>
-                    <li class="skills-item">Terminal</li>
-                    <li class="skills-item">Responsive Design</li>
-                    <li class="skills-item">Accessibility</li>
-                    <li class="skills-item">Adobe CS</li>
+            <h2>Skills</h2>
+            <div class="wrapper skills-container">
+                
+                <ul class="skills-list">
+                    <li class="skills-item"><i class="devicon-react-original"></i><p>React</p></li>
+                    <li class="skills-item"><i class="devicon-javascript-plain"></i><p>JavaScript</p></li>
+                    <li class="skills-item"><i class="devicon-html5-plain"></i><p>HTML5</p></li>
+                    <li class="skills-item"><i class="devicon-css3-plain"></i><p>CSS3</p></li>
+                    <li class="skills-item"><i class="devicon-sass-original"></i><p>SASS</p></li>
+                    <li class="skills-item"><i class="devicon-git-plain"></i><p>Git</p></li>
+                    <li class="skills-item"><i class="devicon-firebase-plain"></i><p>Firebase</p></li>
+                    <li class="skills-item"><i class="fas fa-terminal"></i><p>Terminal</p></li>
+                    <li class="skills-item"><i class="fas fa-database"></i><p>REST<br>APIs</p></li>
+                    <li class="skills-item"><i class="fas fa-laptop-code"></i><p>Responsive<br>Design</p></li>
+                    <li class="skills-item"><i class="devicon-photoshop-plain"></i><p>Adobe<br>Photoshop</p></li>
+                    <li class="skills-item"><i class="fas fa-universal-access"></i><p>Accessibility</p></li>
+                    
                 </ul>
             </div>
         </section>
 
+
+        <img class="banner-image" src="./assets/toronto1.jpg" alt="a photograph of toronto">
 
         <!-- about section -->
         <section id="about" class="about-me">
@@ -151,10 +162,10 @@
 
             </div>
 
-            <!-- <img src="./assets/toronto1.jpg" alt="a photograph of toronto"> -->
-            <img src="./assets/toronto2.jpg" alt="a photograph of toronto">
+            
+            <img class="regular-image" src="./assets/toronto2.jpg" alt="a photograph of toronto">
             <!-- <img src="./assets/toronto3.jpg" alt="a photograph of toronto"> -->
-            <img src="./assets/toronto4.jpg" alt="a photograph of toronto">
+            <img class="regular-image" src="./assets/toronto4.jpg" alt="a photograph of toronto">
             <!-- <img src="./assets/toronto5.jpg" alt="a photograph of toronto"> -->
 
 
@@ -174,18 +185,21 @@
                     <div class="followList">
                         <li>
                             <div class="linkedin">
+                                <i class="fab fa-linkedin"></i>
                                 <a href="#linkedin">LinkedIn</a>
                             </div>
                         </li>
 
                         <li>
                             <div class="github">
+                                <i class="fab fa-github"></i>
                                 <a href="#github">GitHub</a>
                             </div>
                         </li>
 
                         <li>
                             <div class="instagram">
+                                <i class="fab fa-instagram"></i>
                                 <a href="#instagram">Instagram</a>
                             </div>
                         </li>
