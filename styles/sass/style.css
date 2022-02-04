@@ -646,6 +646,10 @@ header nav li {
   .index-header-nav {
     display: none;
   }
+
+  .contact-container {
+    flex-direction: column-reverse;
+  }
 }
 @media (max-width: 570px) {
   .skills-item {
