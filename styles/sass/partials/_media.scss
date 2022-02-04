@@ -1,0 +1,126 @@
+@media (max-width: 1200px) {
+    .project-container:nth-of-type(1),
+    .project-container:nth-of-type(3) {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        img {
+            width: 100%;
+        }
+        .word-container {
+            width: 65%;
+        }
+    }
+
+    .project-container:nth-of-type(2),
+    .project-container:nth-of-type(4) {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        align-items: center;
+        img {
+            width: 100%;
+        }
+        .word-container {
+            width: 75%;
+        }
+    }
+
+    .word-container {
+        padding: 50px 0;
+    }
+
+    .about-me {
+        img {
+            width: 50%;
+        }
+        p {
+            padding: 20px;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    .skills-container {
+        justify-content: center;
+        .skills-list {
+            .skills-item {
+                padding: 35px 100px;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .skills-container {
+        .skills-list {
+            .skills-item {
+                padding: 35px 75px;
+            }
+            i {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 0.8rem;
+                margin: 0;
+            }
+        }
+    }
+
+    .github,
+    .linkedin,
+    .instagram {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        a {
+            font-size: 0.5rem;
+        }
+    }
+
+
+    .user-inputs {
+        flex-direction: column;
+        .user-input-1, 
+        .user-input-2 {
+            width: 100%;
+        }
+    }
+
+    .user-input-1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 678px) {
+    .skills-container {
+        .skills-list {
+            .skills-item {
+                padding: 35px 15px;
+                i {
+                    font-size: 2rem;
+                }
+                p {
+                    font-size: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .about-me {
+        flex-direction: column;
+        p {
+            width: 100%;
+        }
+    }
+
+    
+}
+
+@media (max-width: 570px) {
+    .skills-item {
+        max-width: 80px;
+        max-height: 160px;
+    }
+}
