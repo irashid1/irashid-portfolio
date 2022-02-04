@@ -24,7 +24,8 @@ li {
     list-style: none;
 }
 
-button {
+button,
+#explore-projects {
     background-color: $secondary-color;
     border-style: none;
     box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.5);
@@ -34,6 +35,15 @@ button {
     border-radius: 25px;
     color: white;
     font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-menu-nav {
+    display: none;
+    color: black;
 }
 
 nav a {
@@ -171,6 +181,7 @@ button:hover {
     padding: 25px 0;
     .word-container {
         width: 50%;
+        padding: 0 50px;
     }
     img {
         box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.5);
@@ -203,3 +214,10 @@ button:hover {
         text-align: center;
     }
 }
+
+
+// html
+
+// html {
+//     scroll-behavior: smooth;
+// }

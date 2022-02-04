@@ -245,7 +245,8 @@ li {
   list-style: none;
 }
 
-button {
+button,
+#explore-projects {
   background-color: #fb37bf;
   border-style: none;
   box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.5);
@@ -255,6 +256,15 @@ button {
   border-radius: 25px;
   color: white;
   font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-menu-nav {
+  display: none;
+  color: black;
 }
 
 nav a {
@@ -383,6 +393,7 @@ button:hover {
 }
 .project-container .word-container {
   width: 50%;
+  padding: 0 50px;
 }
 .project-container img {
   box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.5);
@@ -489,7 +500,7 @@ header {
 }
 header .header-container {
   background-color: #4d07eb;
-  margin: 50px 0;
+  margin: 25px 0;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -529,7 +540,8 @@ header nav li {
   }
   .project-container:nth-of-type(1) .word-container,
 .project-container:nth-of-type(3) .word-container {
-    width: 65%;
+    width: 75%;
+    padding: 35px;
   }
 
   .project-container:nth-of-type(2),
@@ -545,6 +557,7 @@ header nav li {
   .project-container:nth-of-type(2) .word-container,
 .project-container:nth-of-type(4) .word-container {
     width: 75%;
+    padding: 35px;
   }
 
   .word-container {
@@ -621,6 +634,17 @@ header nav li {
   }
   .about-me p {
     width: 100%;
+  }
+
+  .hamburger-menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+  }
+
+  .index-header-nav {
+    display: none;
   }
 }
 @media (max-width: 570px) {

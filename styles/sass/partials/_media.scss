@@ -8,7 +8,8 @@
             width: 100%;
         }
         .word-container {
-            width: 65%;
+            width: 75%;
+            padding: 35px;
         }
     }
 
@@ -22,6 +23,7 @@
         }
         .word-container {
             width: 75%;
+            padding: 35px;
         }
     }
 
@@ -91,6 +93,8 @@
         margin-right: 0;
         margin-bottom: 20px;
     }
+
+
 }
 
 @media (max-width: 678px) {
@@ -115,6 +119,16 @@
         }
     }
 
+    .hamburger-menu-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 15px;
+    }
+
+    .index-header-nav {
+        display: none;
+    }
     
 }
 
