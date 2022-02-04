@@ -260,11 +260,19 @@ button {
 nav a {
   text-decoration: none;
   color: black;
+  padding: 10px;
 }
 
-nav a:hover {
+header nav a:hover {
+  color: white;
+  background-color: #4d07eb;
+  opacity: 0.8;
+  margin: 5px 0;
+  transition: 0.5s;
+}
+
+.follow-list nav a:hover {
   color: #4d07eb;
-  transition: 0.3s;
 }
 
 .image-container {
@@ -359,6 +367,14 @@ button:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.project-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-links a:hover {
+  color: #4d07eb;
 }
 
 .project-container {
