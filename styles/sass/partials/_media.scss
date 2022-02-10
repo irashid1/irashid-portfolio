@@ -122,8 +122,16 @@
         padding: 15px 15px;
     }
 
-    .index-header-nav {
-        display: none;
+    header nav ul {
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        top: -300px;
+        padding-top: 50px;
+        left: 0;
+        background-color: white;
+        transition: top 0.3s ease-in;
     }
 
     .contact-container {

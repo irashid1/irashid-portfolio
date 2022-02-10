@@ -267,6 +267,14 @@ button,
   color: black;
 }
 
+.isActive {
+  top: 0;
+}
+
+.menu-icon {
+  z-index: 10;
+}
+
 nav a {
   text-decoration: none;
   color: black;
@@ -639,8 +647,16 @@ header nav li {
     padding: 15px 15px;
   }
 
-  .index-header-nav {
-    display: none;
+  header nav ul {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: -300px;
+    padding-top: 50px;
+    left: 0;
+    background-color: white;
+    transition: top 0.3s ease-in;
   }
 
   .contact-container {
